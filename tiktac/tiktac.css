@@ -1,7 +1,7 @@
 @font-face {
     font-family: KTEGAKI;
     src: url(KTEGAKI.ttf);
-    }
+}
 
 body {
     font-family: "KTEGAKI";
@@ -11,7 +11,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f8f9fa;
+    background-image: url("space.jpg");
+    background-repeat: no-repeat;
+    background-color: #D8DBE2;
+    background-position: center;
+    background-size: 100%;
 }
 
 #main {
@@ -23,7 +27,7 @@ body {
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: #D8DBE2;
 }
 
 .board {
@@ -59,8 +63,8 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: whitesmoke;
-    border: 1px solid dodgerblue;
-    color: dodgerblue;
+    background-color: #A9BCD0;
+    border: 2px solid #3E517A;
+    color: #3E517A;
     border-radius: 8px;
 }

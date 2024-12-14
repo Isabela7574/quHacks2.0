@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+     <!-- icon -->
+     <link rel="icon" type="image/x-icon" href="/images/fortressLogo.png">
+</head>
+<style>
+    @font-face {
+    font-family: KTEGAKI;
+    src: url(KTEGAKI.ttf);
+    }
+
+    body {
+        text-align: center;
+        background-color: '#423E37';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        font-family: "KTEGAKI";
+    }
+</style>
+<body>
+    <h1>Pong Game</h1>
+    <canvas></canvas>
+    <p>Control the left player by using up and down arrow keys</p>
+    <script src="./pong.js"></script>
+</body>
+</html>

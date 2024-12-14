@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mad Libs</title>
+  <style></style>
+   <!-- icon -->
+   <link rel="icon" type="image/x-icon" href="/images/fortressLogo.png">
+</head>
+<body>
+  <h1>Mad Libs</h1>
+  <form id="madLibsForm">
+
+<!-- player input -->
+
+    <label for="noun">Noun:</label>
+    <input type="text" id="noun" required><br><br>
+
+    <label for="adjective1">Adjective:</label>
+    <input type="text" id="adjective1" required><br><br>
+
+    <label for="adjective2">Adjective2:</label>
+    <input type="text" id="adjective2" required><br><br>
+
+    <label for="adjective3">Adjective3:</label>
+    <input type="text" id="adjective3" requried><br><br>
+
+    <label for="adjective4">Adjective4</label>
+    <input type="text" id="adjective4" required><br><br>
+
+    <label for="verb1">Verb:</label>
+    <input type="text" id="verb1" required><br><br>
+
+    <label for="verb2">Verb2</label>
+    <input type="text" id="verb2" required><br><br>
+
+    <label for="time">Time</label>
+    <input type="time" id="time" required><br><br>
+
+    <button type="submit">Generate Story</button>
+
+<!-- end player input -->
+  </form>
+
+  <div id="story"></div>
+
+  <script src="madLibs.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 @font-face {
     font-family: KTEGAKI;
-    src: url(KTEGAKI.ttf);
+    src: url(../KTEGAKI.ttf);
 }
 
 body {
@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("space.jpg");
+    background-image: url("../images/space.jpg");
     background-repeat: no-repeat;
     background-color: #D8DBE2;
     background-position: center;

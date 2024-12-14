@@ -1,0 +1,13 @@
+body {
+    font-family: KTEGAKI;
+    font-size: 30pt;
+    background-color: #ffd1df;
+    text-align: center;
+    padding: 20%;
+    padding-top: 10%;
+}
+
+@font-face {
+    font-family: KTEGAKI;
+    src: url(KTEGAKI.ttf);
+}

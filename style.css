@@ -1,7 +1,16 @@
 /* nav bar styles */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+@font-face {
+    font-family: KTEGAKI;
+    src: url(KTEGAKI.ttf);
+}
+
+h1 {
+    font-family: "KTEGAKI";
+    text-align: center;
+}
+
+h3 {
+    font-family: "KTEGAKI";
 }
 
 .vertical-nav {
@@ -13,6 +22,7 @@ body {
     flex-direction: column;
     align-items: start;
     padding: 10px 0;
+    font-family: "KTEGAKI";
 } 
 
 .vertical-nav a {

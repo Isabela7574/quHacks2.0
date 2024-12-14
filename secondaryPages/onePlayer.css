@@ -1,7 +1,12 @@
 /* nav bar styles */
+@font-face {
+    font-family: KTEGAKI;
+    src: url(KTEGAKI.ttf);
+}
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "KTEGAKI";
 }
 
 .vertical-nav {

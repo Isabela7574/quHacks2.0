@@ -1,5 +1,10 @@
+@font-face {
+    font-family: KTEGAKI;
+    src: url(KTEGAKI.ttf);
+    }
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "KTEGAKI";
     margin: 0;
     padding: 0;
     display: flex;

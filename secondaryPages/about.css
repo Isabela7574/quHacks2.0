@@ -7,6 +7,12 @@ body {
     padding-top: 10%;
 }
 
+p {
+    font-family: "KTEGAKI";
+    margin-left: 35px;
+}
+
+
 @font-face {
     font-family: KTEGAKI;
     src: url(KTEGAKI.ttf);

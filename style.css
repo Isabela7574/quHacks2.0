@@ -4,6 +4,11 @@
     src: url(KTEGAKI.ttf);
 }
 
+p {
+    font-family: "KTEGAKI";
+    margin-left: 35px;
+}
+
 body {
     background-color: #f9f4ea;
 }
